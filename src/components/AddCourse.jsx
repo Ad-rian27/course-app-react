@@ -1,10 +1,11 @@
 import React from 'react'
+import NavigationBar from './NavigationBar'
 
 const AddCourse = () => {
     return (
         <div>
-
-            <div className="container">
+            <NavigationBar />
+            <div className="container mt-5">
                 <div className="row">
                     <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
 
