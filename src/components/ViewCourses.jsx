@@ -10,7 +10,13 @@ const ViewCourses = () => {
             (response) => (
                 changeData(response.data)
             )
-        ).catch()
+        ).catch(
+
+            (error) => (
+                console.error("Failed to connect", error)
+            )
+
+        )
     }
 
     useEffect(
